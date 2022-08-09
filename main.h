@@ -24,5 +24,6 @@ int print_digit(va_list intlist);
 int print_char(va_list charlist);
 int (*format_conversion(char s))(va_list);
 int percentage(__attribute__((unused))va_list valist);
+int print_binary(va_list);
 
 #endif

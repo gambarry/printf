@@ -14,6 +14,7 @@ int (*format_conversion(char s))(va_list)
 		{'c', print_char},
 		{'s', print_string},
 		{'%', percentage},
+		{"b", print_binary},
 		{'\0', NULL}
 	};
 
